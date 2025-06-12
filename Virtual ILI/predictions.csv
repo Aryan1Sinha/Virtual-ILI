@@ -1,4 +1,0 @@
-Pipe_age,Coating,Operating_pressure(psi),Pressure cycles,Flow rate (bbl/d),Temperature ©,H2S_concentration,CO2_concentration,Water_cut,Previous wall loss ,Predicted Wall Loss (mm),Corrosion Risk Level
-12.0,4.0,1000.0,500.0,1345.0,87.0,0.65,0.75,0.34,0.4,0.7832999999999997,Low
-23.0,45.0,65.0,12.0,1000.0,378.0,80.0,0.0256,0.65,0.6,0.6765999999999995,Low
-12.0,3.0,3465.0,65.0,664.0,36.0,89.0,0.32,0.4,0.65,0.6698999999999995,Low
