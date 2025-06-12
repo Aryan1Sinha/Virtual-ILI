@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual ILI</title>
+  <link rel="icon" type="images/x-icon" href="https://cdn.brandfolder.io/DWUHL4B/at/nn8r29wwvs4qcq7s7mfccfs/shutterstock_1195430575.jpg?width=2500&height=1674&quality=35" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Virtual ILI Predictor</h1>
+    <p class="subheading">Enter pipeline details below</p>
+    
+    <form method="POST" action="/predict">
+      {% for feature in features %}
+        <label for="{{ feature }}">{{ feature }}</label>
+        <input type="number" step="any" name="{{ feature }}" required>
+      {% endfor %}
+      <button type="submit">Predict</button>
+    </form>
+  </div>
+</body>
+</html>
